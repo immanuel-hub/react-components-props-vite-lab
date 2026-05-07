@@ -1,5 +1,37 @@
 # Putting it All Together: Components and Props
 
+## How to Run the Project
+
+```bash
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+```
+
+Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+To run tests:
+
+```bash
+npm test
+```
+
+## Screenshot
+
+![Blog Site Demo](./images/demo.png)
+
+## Component Tree
+
+```
+App
+├── Header        — displays the blog name
+├── About         — displays the logo and blog description
+└── ArticleList   — renders a list of Article components
+    └── Article   — displays title, date, preview, and reading time
+```
+
 ## Learning Goals
 
 - Create components that return JSX
